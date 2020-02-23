@@ -1,35 +1,33 @@
-h1 {
-  background: #B3B3B3;
-  font-size: 175%;
-}
-
 header {
-  background:#666666;
+  background:#FFA07A;
   text-align: center;
+  color: #000080;
 }
 
-h1{color: #FFFFFF;
-}
-
-nav{
+h1 {
+  background: #FA8072;
+  text-align: center;
+  font-size: 160%;
   font-variant: small-caps;
-  font-size: 150%;
-  font-family: Arial, 'Times New Roman', serif;
+  color: #000080
 }
 
 h2{
-  color: red;
-  background: #00B7EA;
+  color: #1B4C04;
+  background: #C0C0C0;
+  font-variant: small-caps;
+  color: #000080;
 }
 
-details {
-    font-style: italic;
+section {
+  background: #FADBD8;
 }
 
-summary {
-    font-style: normal;
+a {
+    color: #1B4C04;
+    background: #FADBD8;
 }
 
-footer {
-    background: #666666;
+img {
+  display: none;
 }
