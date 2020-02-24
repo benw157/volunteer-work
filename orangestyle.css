@@ -1,13 +1,17 @@
+*{
+  border: 1px solid blue;
+}
+
 body {
-        font-size: 1.lem;
-        margin: 30px;
+        font-size: 125%;
+        margin: 45px;
 }
 
 a: link, a:visited, a:active {
         color:rgb(244, 172, 68);
 }
 
- 
+
 a: hover{
         color:blue;
         text-decoration: none;
