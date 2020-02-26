@@ -1,6 +1,8 @@
-*{
+
+/* This adds a border around everything */
+/* *{
   border: 1px solid blue;
-}
+} */
 
 body {
         font-size: 125%;
@@ -46,7 +48,7 @@ H1 {
 }
 
 table {
-  width: 75%;
+  width: 95%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   margin-left:auto;
