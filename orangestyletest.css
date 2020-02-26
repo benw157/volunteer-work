@@ -1,0 +1,103 @@
+*{
+  border: 1px solid blue;
+}
+
+body {
+        font-size: 125%;
+        margin: 45px;
+}
+
+a: link, a:visited, a:active {
+        color:rgb(244, 172, 68);
+}
+
+
+a: hover{
+        color:blue;
+        text-decoration: none;
+}
+
+li {
+        list-style-type: square;
+}
+
+img.MyPicture  {
+      border: 1px solid black;
+      float: left;
+      margin-right: 15px;
+}
+
+img {
+  height: 125px;
+  display: block;
+}
+
+p {
+  color:black;
+  font: 85%;
+  font-family: san-serif;
+}
+
+H1 {
+ color: rgb(244, 172, 68);
+ text-align: left;
+ font-size: 24px;
+ font-family: sans-serif;
+}
+
+table {
+  width: 75%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left:auto;
+  margin-right:auto;
+  background: #ECBFC5;
+}
+
+tr td:nth-child(1) {
+  text-align: left;
+}
+
+tr td:nth-child(2) {
+  text-align: center;
+}
+
+tr td:nth-child(3) {
+  text-align: center;
+}
+
+th {
+  background-image: linear-gradient(to bottom right, #00e600, #ccffcc);
+  background: -moz-linear-gradient(-40deg, #00e600, #ccffcc);
+  color: #0000ff;
+  font-size: 120%;
+  border-radius: 10px;
+  border: 1px solid #107711;
+  border-bottom: 3px solid #107711;
+  font-family: 'Comic Sans MS', arial, helvetica;
+  line-height: 125%;
+  font-weight: bolder;
+  font-variant: small-caps;
+  }
+
+td {
+  color: #004d00;
+  opacity: 0.75;
+  font-size: 85%;
+  font-family: arial, times, helvetica;
+  font-weight: normal;
+  line-height: 105%;
+  border-radius: 2px;
+  padding: 4px;
+  background: #ffff99;
+  margin: 2px;
+}
+
+td:hover {
+  opacity: 1;
+  background: #ffffe6;
+	}
+
+table, th, td {
+  border: 1px solid #107711;
+}
