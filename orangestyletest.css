@@ -69,9 +69,8 @@ tr td:nth-child(3) {
 }
 
 th {
-  background-image: linear-gradient(to bottom right, #00e600, #ccffcc);
-  background: -moz-linear-gradient(-40deg, #00e600, #ccffcc);
-  color: #0000ff;
+  background-image: linear-gradient(to bottom right, rgb(244, 172, 68), rgb(255, 255, 255));
+  color: #000000;
   font-size: 120%;
   border-radius: 10px;
   border: 1px solid #107711;
@@ -83,7 +82,7 @@ th {
   }
 
 td {
-  color: #004d00;
+  color: #000000;
   opacity: 0.75;
   font-size: 85%;
   font-family: arial, times, helvetica;
@@ -91,7 +90,7 @@ td {
   line-height: 105%;
   border-radius: 2px;
   padding: 4px;
-  background: #ffff99;
+  background: #FFFFFF;
   margin: 2px;
 }
 
