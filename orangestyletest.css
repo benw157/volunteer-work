@@ -69,6 +69,7 @@ H1 {
  text-align: left;
  font-size: 24px;
  font-family: sans-serif;
+ font-style: italic;
 }
 
 table {
@@ -113,7 +114,7 @@ td {
   font-weight: normal;
   line-height: 105%;
   border-radius: 2px;
-  padding: 4px;
+  padding: 8px;
   background: #FFFFFF;
   margin: 2px;
 }
@@ -125,4 +126,37 @@ td:hover {
 
 table, th, td {
   border: 1px solid #107711;
+}
+
+/* Print. */
+@media print {
+  /* cssclsNoPrint class. */
+  .cssclsNoPrint {display:none}
+}
+
+/* Screen. */
+@media screen {
+  /* cssclsNoScreen class. */
+  .cssclsNoScreen {display:none}
+}
+
+input[type=button] {
+  font-size: 85%;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  margin: 4px;
+  cursor: pointer;
+  width: 300px;
+  height: 35px;
+  font-style: italic;
+  }
+
+
+footer {
+  font-size: 125%;
+  margin: 45px;
+  color: #DCDCDC;
 }
