@@ -37,14 +37,14 @@ input {
 
 section input {
   display: inline;
-  width: 85%;
+  width: 90%;
   height: 40px;
   padding: 5px;
   margin-bottom: 10px;
   border: 1px solid gray;
   background-color: white;
   font-family: times;
-  font-size: 115%;
+  font-size: 90%;
 }
 
 img.MyPicture  {
@@ -141,7 +141,7 @@ table, th, td {
 }
 
 input[type=button] {
-  font-size: 85%;
+  font-size: 90%;
   background-color: white;
   border: none;
   color: black;
@@ -153,6 +153,18 @@ input[type=button] {
   height: 35px;
   font-style: italic;
   }
+
+input[type=checkbox] {
+        width:25px;
+        height: 15px;
+        margin: 0;
+        padding: 3;
+        display:inline;
+      }
+
+label {
+  display: inline-block;
+} */
 
 
 footer {
