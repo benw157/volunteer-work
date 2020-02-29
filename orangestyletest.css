@@ -35,6 +35,31 @@ input {
   font-size: 115%;
 }
 
+.center {
+  margin-right: 25%;
+  display: inline-block;
+  float: right;
+  }
+
+div input {
+  display: inline-block;
+  width: 275px;
+  height: 20px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  border: 1px solid gray;
+  background-color: white;
+  font-family: times;
+  font-size: 115%;
+}
+
+div label{
+		display: inline-block;
+    margin-left: 10px;
+		}
+
 section input {
   display: inline;
   width: 90%;
@@ -100,7 +125,7 @@ th {
   border-radius: 10px;
   border: 1px solid #107711;
   border-bottom: 3px solid #107711;
-  font-family: 'Comic Sans MS', arial, helvetica;
+  font-family: helvetica, arial;
   line-height: 125%;
   font-weight: bolder;
   font-variant: small-caps;
@@ -161,10 +186,6 @@ input[type=checkbox] {
         padding: 3;
         display:inline;
       }
-
-label {
-  display: inline-block;
-} */
 
 
 footer {
