@@ -1,8 +1,12 @@
 
-/* This adds a border around everything */
-/* *{
-  border: 1px solid blue;
-} */
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title> 'orangestyletest.css' </title>
+</head>
+
 
 body {
         font-size: 125%;
@@ -193,3 +197,5 @@ footer {
   margin: 45px;
   color: #DCDCDC;
 }
+
+</html>
