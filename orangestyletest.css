@@ -13,6 +13,7 @@ body {
         margin: 45px;
 }
 
+
 a: link, a:visited, a:active {
         color:rgb(244, 172, 68);
 }
@@ -89,8 +90,9 @@ img {
 
 p {
   color:black;
-  font: 85%;
+  font: 115%;
   font-family: san-serif;
+  width: 85%;
 }
 
 H1 {
